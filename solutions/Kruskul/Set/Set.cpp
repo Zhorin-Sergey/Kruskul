@@ -24,8 +24,9 @@ void Sepset::merge(int i, int j) {
       a = val[a];
     while (val[b] != b)
       b = val[b];
-	if (a != b)
+    if (a != b) {
       val[a] = b;
+    }
   }
 }
 

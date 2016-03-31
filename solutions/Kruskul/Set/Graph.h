@@ -19,7 +19,7 @@ struct Graph {
 
 void reb(int, int, int, Rebro*);
 void gr(int, int, Rebro*, Graph*);
-void printt(Graph*);
+void printt(Graph *g);
 void Krusk(Graph*, Graph*);
 
 #endif  // SOLUTIONS_KRUSKUL_SET_GRAPH_H_
