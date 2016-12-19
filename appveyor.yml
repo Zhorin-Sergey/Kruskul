@@ -1,0 +1,9 @@
+version: 1.0.{build}
+configuration: Release
+build:
+  project: build_all.sln
+  verbosity: minimal
+before_build:
+- "python utils\\create_build_solution.py"
+on_success:
+- cmd: utils\\run_all_release.bat
